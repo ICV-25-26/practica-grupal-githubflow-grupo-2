@@ -1,0 +1,45 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo general del cuerpo */
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Título principal */
+  h1 {
+    font-size: 2.5em;
+    color: #222;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  }
+  
+  /* Párrafos con nombres */
+  p {
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Efecto al pasar el ratón */
+  p:hover {
+    background-color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
